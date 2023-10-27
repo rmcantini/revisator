@@ -17,9 +17,19 @@ pipeline = keras_ocr.pipeline.Pipeline()
 
 results = pipeline.recognize([img_fns[0]])
 
-keras_ocr.tools.drawAnnotations(plt.imread(img_fns[0]), results[0])
-plt.show()
+# keras_ocr.tools.drawAnnotations(plt.imread(img_fns[0]), results[0])
+# plt.show()
 
 predicted_image = results[0]
-for text, box in predicted_image:
-    print(text)
+# for text, box in predicted_image:
+#    print(text)
+
+SENTENCE = ' '
+
+for word in predicted_image:
+    text, _ = word  # Access the text part of the tuple
+    SENTENCE += text + ' '
+
+SENTENCE = SENTENCE.strip()
+
+print(SENTENCE)
