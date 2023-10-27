@@ -1,12 +1,12 @@
 """Another ocr attempt"""
 
 
-import pandas as pd
+# import pandas as pd
 from glob import glob
-import numpy as np
-from tqdm.notebook import tqdm
+# import numpy as np
+# from tqdm.notebook import tqdm
 import matplotlib.pyplot as plt
-from PIL import Image
+# from PIL import Image
 import keras_ocr
 
 
