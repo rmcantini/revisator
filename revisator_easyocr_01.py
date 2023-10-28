@@ -2,7 +2,7 @@
 """
 import easyocr
 
-reader = easyocr.Reader(['en', 'pt'], gpu=True)
+reader = easyocr.Reader(['en', 'pt'], gpu=False)
 results = reader.readtext('images\\01.png')
 
 TEXT = ' '
