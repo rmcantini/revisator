@@ -16,8 +16,8 @@ def ocr(input_image):
 
 demo = gr.Interface(
     fn=ocr,
-    inputs=gr.Image(),
+    inputs=gr.Image(type="pil"),
     outputs="text",
 )
 
-demo.launch()
+demo.launch(share=True)
