@@ -1,7 +1,9 @@
 {
     "cSpell.words": [
         "gradio",
+        "imread",
         "keras",
+        "pytesseract",
         "readtext"
     ]
 }
