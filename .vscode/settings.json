@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "gradio",
+        "imdecode",
         "imread",
         "keras",
         "pytesseract",
