@@ -4,6 +4,7 @@
         "imread",
         "keras",
         "pytesseract",
-        "readtext"
+        "readtext",
+        "tesseract"
     ]
 }
