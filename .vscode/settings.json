@@ -6,6 +6,7 @@
         "keras",
         "pytesseract",
         "readtext",
-        "tesseract"
+        "tesseract",
+        "thresholded"
     ]
 }
