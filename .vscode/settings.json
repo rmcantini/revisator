@@ -1,8 +1,11 @@
 {
     "cSpell.words": [
+        "denoised",
         "gradio",
+        "Grammarly",
         "imdecode",
         "imread",
+        "imwrite",
         "keras",
         "pytesseract",
         "readtext",

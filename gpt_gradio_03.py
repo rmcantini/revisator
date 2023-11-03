@@ -5,7 +5,7 @@ import numpy as np
 import language_tool_python
 
 # Initialize Grammarly
-tool = language_tool_python.LanguageTool('en-US')
+tool = language_tool_python.LanguageTool('pt-BR')
 
 # Your OCR preprocessing function
 

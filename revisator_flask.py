@@ -1,7 +1,5 @@
-import io
+# import io
 from flask import Flask, render_template, request
-
-# Import EasyOCR
 import easyocr
 
 # Initialize EasyOCR reader
